@@ -1,0 +1,9 @@
+<p>Parent content</p>
+{{#link-to 'parent.main'}}Main outlet nested route{{/link-to}}
+<br>
+{{#link-to 'parent.named'}}Named outlet nested route{{/link-to}}
+<br>
+{{#link-to 'parent'}}Parent route{{/link-to}}
+{{#liquid-outlet 'main' class='right-hand-panel' containerless=true}}
+{{#liquid-outlet 'named' class='right-hand-panel' containerless=true}}
+

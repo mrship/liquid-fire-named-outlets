@@ -1,0 +1,15 @@
+.right-hand-panel {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1001;
+  padding: 0;
+}
+
+.panel {
+  padding: 10px;
+  background-color: white;
+  border-left: 1px solid #e1e1e1;
+  height: 100%;
+}
